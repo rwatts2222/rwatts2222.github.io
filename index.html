@@ -2,13 +2,207 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+<!-- CSS file -->
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <h1>Ryan Watts Portfolio</h1>
+    
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#aboutMe">About Me</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </div>  
+  </nav>
+
+  <!-- Background and Title Card -->
+  <section class="landing">
+    <div class="card border-info mb-3" style="max-width: 20rem;">
+      <div class="card-body text-info">
+        <h1 class="card-title">Ryan Watts</h1>
+        <h5 class="card-text">Web Developer</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <div class="container-fluid">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-2" id="aboutMe">
+        <img src="assets/Ryan Watts professional.jpg" id="myPhoto">
+      </div>
+      <div class="col-lg-3">
+        <h1 style="text-align:center;">About Ryan Watts</h1>
+        <p class="bioText">I graduated from Michigan State University with a bachelor's degree in English. I worked in China as an English teacher for 5 years. I am currently pursuing a master's degree in Information and Communication Science from Ball State University. At the end of 2020 I enrolled in a web development program at Eleven Fifty Academy. My interests include networking, network security, and web development.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12" id="links">
+        <div class="linkedIn">
+          <a target="_blank" href="https://www.linkedin.com/in/ryan-watts-93a7467b/">
+          <img src="assets/LI-Bug.svg.original.svg" id="linkedInIcon"></a>
+        </div>
+        <div class="resume">
+          <a href="assets/Resume.docx"><button class="btn"><i class="fa fa-download"></i> Download Resume</button></a>
+        </div>
+        <div class="gitHubProfile">
+          <a target="_blank" href="https://github.com/rwatts2222">
+          <img src="assets/GitHub-Mark-120px-plus.png" id="gitHubIcon"></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2>Skills</h2>
+        <div class="logos">
+          <div class="htmlLogo">
+            <img src="assets/html logo.jpg" id="htmlBadge">
+            <p>HTML</p>
+          </div>
+          <div class="cssLogo">
+            <img src="assets/CSS logo.jpg" id="cssBadge">
+            <p>CSS</p>
+          </div>
+          <div class="javascriptLogo">
+            <img src="assets/javascript logo.jpg" id="javascriptBadge">
+            <p>JavaScript</p>
+          </div>
+          <div class="bootstrapLogo">
+            <img src="assets/bootstrap-solid.svg" id="bootstrapBadge">
+            <p>Bootstrap</p>
+          </div>
+          <div class="gitHubLogo">
+            <img src="assets/GitHub-Mark-120px-plus.png" id="gitHubBadge">
+            <p>GitHub</p>
+          </div>
+          <div class="firebaseLogo">
+            <img src="assets/firebase.png" id="firebaseBadge">
+            <p>Firebase</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Projects -->
+  <div class="container-fluid" id="projects">
+    <h1>Projects</h1>
+    <div class="row" id="projectsRow">
+      <!-- Static Layout -->
+      <div class="col align-self-start">
+        <div class="thumbnailsWrapper">
+          <div class="kast">
+            <a target="_blank" href="https://www.kastapp.co/">
+              <img src="assets/Kast original site.jpg" id="imgKast" alt="Kast website">
+            </a>
+          <h6> Actual Website</h6>
+          </div>
+          <div class="static">
+            <a target="_blank" href="https://rwatts2222.github.io/static-layout/">
+              <img src="assets/Kast static layout.jpg" id="imgStatic" alt="Static Layout">
+            </a>
+          <h6>Static Re-creation</h6>
+          </div>
+        </div>
+          <div class="staticDesc">
+              <h4>Static Layout</h4>
+              <p>A static re-creation of an actual website using HTML and CSS.</p>
+          </div>
+      </div>
+
+      <!-- CSS Creature -->
+      <div class="col align-self-center">
+        <a target="_blank" href="https://codepen.io/rmwatts2222/pen/BaLNdaj">
+          <img src="assets/CSS creature.jpg" id="creature" alt="CSS Creature">
+        </a>
+        <h4>CSS Creature</h4>
+        <p>A simple graphic created via HTML and CSS.</p>
+      </div>
+      
+      <!-- API Project -->
+      <div class="col align-self-end">
+        <a target="_blank" href="https://rw--api-project.firebaseapp.com/">
+          <img src="assets/API project.jpg" id="API">
+        </a>
+        <h4>API Project</h4>
+        <p>A fetch-based Application Programming Interface (API) which displays information about Studio Ghibli movies.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="container-fluid" id="contactSection">
+    <br>
+    <br>
+        
+    <div class="container-fluid" id="contact">
+      <h1 class="text-center">Contact</h1>
+        <form action="https://formspree.io/f/mknppkrb" method="POST">
+          <div class="control-group">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                data-validation-required-message="Please enter your name" name="name">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                data-validation-required-message="Please enter your email" name="_replyto">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                data-validation-required-message="Please leave a message" name="message"></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-lg btn-black">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              Send Message
+            </button>
+          </div>
+        </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid" id="footer">
+    <a href="#"><button class="topBtn">Return to Top</button></a>
+    <p class="copyright">&copy; 2020 Ryan Watts</p>
+  </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>

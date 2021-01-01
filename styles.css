@@ -1,0 +1,255 @@
+/* General */
+html, body {
+	margin: 0;
+	padding: 0;
+	scroll-padding-top: 3em;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Navbar */
+.navbar-expand-lg{
+	padding: .4em 2em;
+	color: #fff;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	background-color: navy;
+}
+
+.navbar-nav a{
+    padding: 0.2em 2.7em;
+	margin-right: 1.5em;
+}
+
+.landing {
+	background: url(assets/desert-stars.jpg);
+	height: 100vh;
+	width: 100vw;
+}
+
+/* Title Card */
+.border-info{
+	margin: 4em 2em 0;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	text-align: center;
+}
+
+.card-title {
+	color: rgb(224, 224, 224);
+	margin-top: .75em;
+	font-family: 'Alfa Slab One', sans-serif;
+}
+
+.card-text {
+	color: rgb(224, 224, 224);
+}
+
+/* About Me */
+#myPhoto {
+	width: 12em;
+	margin-right: 2em;
+}
+
+.bioText {
+	text-align: justify;
+}
+
+#links {
+	display: flex;
+	justify-content: center;
+	margin: 1.7em 0;
+}
+
+#linkedInIcon {
+	width: 4em;
+	transition: filter .3s ease;
+}
+
+#linkedInIcon:hover {
+	filter: brightness(85%);
+}
+
+#gitHubIcon {
+	width: 3.6em;
+	transition: filter .3s ease;
+}
+
+#gitHubIcon:hover {
+	filter: invert(50%);
+}
+
+/* Skills */
+.logos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+#htmlBadge {
+	width: 5em;
+}
+
+.cssLogo {
+	padding: 0 2em;
+}
+
+#cssBadge {
+	width: 5em;
+}
+
+.javascriptLogo {
+	padding-right: 2em;
+}
+
+#javascriptBadge {
+	width: 5em;
+}
+
+#bootstrapBadge {
+	width: 5em;
+	padding-bottom: .5em;
+}
+
+.gitHubLogo {
+	padding: 0 2em;
+}
+
+#gitHubBadge {
+	width: 5em;
+	padding-bottom: .5em;
+}
+
+#firebaseBadge {
+	width: 4em;
+}
+
+/* Projects */
+#projects {
+	padding: 3em 0;
+	text-align: center;
+	background-image: linear-gradient(white, lightgray);
+}
+
+.row {
+	margin: 2em 0;
+}
+
+#projectsRow {
+	height: 50em;
+	margin-top: 2em;
+}
+
+/* Static Layout */
+.thumbnailsWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#imgKast {
+	width: 14em;
+	border-radius: .2em;
+	border: 1px solid #ddd;
+	padding: .1em;
+	transition: filter .3s ease;
+	margin-right: .5em;
+}
+
+#imgKast:hover {
+	filter: brightness(85%);
+}
+
+#imgStatic {
+	width: 14em;
+	border-radius: .2em;
+	border: 1px solid #ddd;
+	padding: .1em;
+	transition: filter .3s ease;
+}
+
+#imgStatic:hover {
+	filter: brightness(85%);
+}
+
+/* CSS Creature */
+#creature {
+	border-radius: .2em;
+	border: 1px solid #ddd;
+	padding: .1em;
+	width: 7em;
+	transition: filter .3s ease;
+}
+
+#creature:hover {
+	filter: brightness(85%);
+}
+
+/* API Project */
+#API {
+	width: 16em;
+	border-radius: .2em;
+	border: 1px solid #ddd;
+	padding: .1em;
+	transition: filter .3s ease;
+}
+
+#API:hover {
+	filter: brightness(85%);
+}
+
+/* Contact */
+#contactSection {
+	padding-top: 3em;
+	background-image: linear-gradient(lightgray, gray);
+}
+
+#contact {
+	width: 35em;
+}
+
+.btn {
+	border: none;
+	margin: .5em 1em 3em 1em;
+	background-color: rgb(85, 85, 85);
+	color: rgb(255, 255, 255);
+	transition: filter .3s ease;
+	font-size: 1em;
+}
+
+.btn:hover {
+	filter: brightness(85%);
+	color: white;
+}
+
+/* Footer */
+#footer {
+	background-color: navy;
+}
+
+.topBtn {
+	padding: .2em .5em;
+	margin: 1em;
+	border: none;
+	border-radius: .2em;
+	background-color: rgb(85, 85, 85);
+	color: white;
+}
+
+.topBtn:hover {
+	filter: brightness(85%);
+	text-decoration: none;
+}
+
+.topBtn:focus {
+	outline: none;
+}
+
+.copyright {
+	color: rgb(224, 224, 224);
+}
