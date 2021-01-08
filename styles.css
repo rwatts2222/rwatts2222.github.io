@@ -210,7 +210,7 @@ body {
 }
 
 #contact {
-	width: 35em;
+	max-width: 35em;
 }
 
 .btn {
