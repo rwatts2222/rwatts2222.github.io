@@ -56,6 +56,8 @@ body {
 
 .bioText {
 	text-align: justify;
+	display: flex;
+	justify-content: space-between;
 }
 
 #links {
@@ -111,22 +113,24 @@ body {
 	width: 5em;
 }
 
-#bootstrapBadge {
+#pythonBadge {
 	width: 5em;
 	padding-bottom: .5em;
 }
 
-.gitHubLogo {
-	padding: 0 2em;
+/* Certifications */
+#PaloAltoBadge {
+	width: 6em;
+	margin-top: -.5em;
 }
 
-#gitHubBadge {
-	width: 5em;
-	padding-bottom: .5em;
+#AWSdevBadge {
+	width: 5.5em;
+	margin: 0 3em;
 }
 
-#firebaseBadge {
-	width: 4em;
+#AWSSAABadge {
+	width: 5.5em;
 }
 
 /* Projects */
@@ -142,7 +146,7 @@ body {
 
 #projectsRow {
 	height: 50em;
-	margin-top: 2em;
+	margin-top: 6em;
 }
 
 /* Static Layout */
@@ -258,6 +262,7 @@ body {
 .topBtn:hover {
 	filter: brightness(85%);
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .topBtn:focus {
