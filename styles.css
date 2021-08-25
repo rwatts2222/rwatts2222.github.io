@@ -63,7 +63,7 @@ body {
 #links {
 	display: flex;
 	justify-content: center;
-	margin: 1.7em 0;
+	margin: 2em 0 6em 0;
 }
 
 #linkedInIcon {
@@ -72,7 +72,7 @@ body {
 }
 
 #linkedInIcon:hover {
-	filter: brightness(85%);
+	filter: brightness(75%);
 }
 
 #gitHubIcon {
@@ -84,7 +84,27 @@ body {
 	filter: invert(50%);
 }
 
-/* Skills */
+/* Certifications */
+#CCNABadge {
+	width: 6em;
+	margin: -.435em 3em 0 3em;
+}
+
+#PaloAltoBadge {
+	width: 6em;
+	margin-top: -.5em;
+}
+
+#AWSdevBadge {
+	width: 5.5em;
+	margin: 0 3em;
+}
+
+#AWSSAABadge {
+	width: 5.5em;
+}
+
+/* Additional Skills */
 .logos {
 	display: flex;
 	flex-wrap: wrap;
@@ -118,24 +138,18 @@ body {
 	padding-bottom: .5em;
 }
 
-/* Certifications */
-#CCNABadge {
-	width: 6em;
-	margin: -.435em 3em 0 3em;
+/* Accolades */
+#CertCrusher {
+	width: 10em;
+	margin-bottom: .5em;
+	border-radius: .2em;
+	border: 1px solid #ddd;
+	padding: .1em;
+	transition: filter .3s ease;
 }
 
-#PaloAltoBadge {
-	width: 6em;
-	margin-top: -.5em;
-}
-
-#AWSdevBadge {
-	width: 5.5em;
-	margin: 0 3em;
-}
-
-#AWSSAABadge {
-	width: 5.5em;
+#CertCrusher:hover {
+	filter: brightness(85%);
 }
 
 /* Projects */
@@ -150,8 +164,52 @@ body {
 }
 
 #projectsRow {
-	height: 50em;
+	min-height: 15em;
 	margin-top: 6em;
+}
+
+#projectsRow2 {
+	height: 15em;
+	margin-top: 6em;
+}
+
+/* Python Data Vis */
+#data_vis {
+	width: 14em;
+	border-radius: .2em;
+	border: 1px solid #ddd;
+	padding: .1em;
+	transition: filter .3s ease;
+}
+
+#data_vis:hover {
+	filter: brightness(85%);
+}
+
+/* API Project */
+#API {
+	width: 16em;
+	border-radius: .2em;
+	border: 1px solid #ddd;
+	padding: .1em;
+	transition: filter .3s ease;
+}
+
+#API:hover {
+	filter: brightness(85%);
+}
+
+/* Udemy Practice Exams */
+#udemy {
+	width: 14.6em;
+	border-radius: .2em;
+	border: 1px solid #ddd;
+	padding: .1em;
+	transition: filter .3s ease;
+}
+
+#udemy:hover {
+	filter: brightness(85%);
 }
 
 /* Static Layout */
@@ -186,42 +244,16 @@ body {
 	filter: brightness(85%);
 }
 
-/* Python Data Vis */
-#data_vis {
-	border-radius: .2em;
-	border: 1px solid #ddd;
-	padding: .1em;
-	width: 14em;
-	transition: filter .3s ease;
-}
-
-#data_vis:hover {
-	filter: brightness(85%);
-}
-
 /* CSS Creature */
 #creature {
 	border-radius: .2em;
 	border: 1px solid #ddd;
 	padding: .1em;
-	width: 7em;
+	width: 6em;
 	transition: filter .3s ease;
 }
 
 #creature:hover {
-	filter: brightness(85%);
-}
-
-/* API Project */
-#API {
-	width: 16em;
-	border-radius: .2em;
-	border: 1px solid #ddd;
-	padding: .1em;
-	transition: filter .3s ease;
-}
-
-#API:hover {
 	filter: brightness(85%);
 }
 
@@ -238,7 +270,7 @@ body {
 
 .btn {
 	border: none;
-	margin: .5em 1em 3em 1em;
+	margin: .5em 1em 1em 1em;
 	background-color: #eb9b34;
 	color: rgb(255, 255, 255);
 	transition: filter .3s ease;
@@ -257,7 +289,7 @@ body {
 
 .topBtn {
 	padding: .2em .5em;
-	margin: 1em;
+	margin: 1em 0 1em 1em;
 	border: none;
 	border-radius: .2em;
 	background-color: rgb(85, 85, 85);
