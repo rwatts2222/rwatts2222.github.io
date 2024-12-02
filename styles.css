@@ -26,8 +26,7 @@ body {
 
 .landing {
 	background: url(assets/desert-stars-unsplash.jpg);
-	height: 100vh;
-	width: 100vw;
+	margin-bottom: 2em;
 }
 
 /* Title Card */
@@ -58,6 +57,7 @@ body {
 	text-align: justify;
 	display: flex;
 	justify-content: space-between;
+	color:#ddd;
 }
 
 #links {
@@ -72,16 +72,17 @@ body {
 }
 
 #linkedInIcon:hover {
-	filter: brightness(75%);
+	filter: brightness(135%);
 }
 
 #gitHubIcon {
 	width: 3.6em;
 	transition: filter .3s ease;
+	filter:invert(100%)
 }
 
 #gitHubIcon:hover {
-	filter: invert(50%);
+	filter: invert(75%);
 }
 
 /* Certifications */
@@ -94,6 +95,28 @@ body {
 	width: 6em;
 	margin: -.435em 3em 0 3em;
 }
+
+#DevNetBadge {
+	width: 6em;
+	margin: .435em 3em .35em 3em;
+}
+
+#JNCIS-ENTBadge {
+	width: 6em;
+	margin: -.8em 3em .35em 3em;
+}
+
+#ArubaCampusAccessBadge {
+	width: 6em;
+	margin: -.8em 3em .35em 3em;
+}
+
+#F5AdministratorBadge {
+	width: 6em;
+	margin: -.8em 3em .35em 3em;
+}
+
+/* EXPIRED CERTIFICATIONS 
 
 #PaloAltoBadge {
 	width: 6em;
@@ -119,7 +142,10 @@ body {
 	margin: .25em 0;
 }
 
-/* Additional Skills */
+*/
+
+
+/* Certifications and Skills */
 .logos {
 	display: flex;
 	flex-wrap: wrap;
@@ -127,6 +153,21 @@ body {
 	padding: 1em;
 	margin-bottom: 1em;
 }
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 1em;
+	margin-bottom: 3em;
+}
+
+  li {
+	display: inline-block;
+	margin-right: 2em;
+  }
+  
+/* WEB DEV ICONS
 
 #htmlBadge {
 	width: 5em;
@@ -153,7 +194,10 @@ body {
 	padding-bottom: .5em;
 }
 
-/* Accolades */
+*/
+
+/* OLD ACCOLADES - BALLSTATE LINK BROKEN
+
 #CertCrusher {
 	width: 10em;
 	margin-bottom: .5em;
@@ -167,7 +211,10 @@ body {
 	filter: brightness(85%);
 }
 
-/* Projects */
+*/
+
+/* OLD WEB DEV PROJECTS */
+/*
 #projects {
 	padding: 3em 0;
 	text-align: center;
@@ -187,9 +234,10 @@ body {
 	height: 15em;
 	margin-top: 6em;
 }
+*/
 
 /* Python Data Vis */
-#data_vis {
+/* #data_vis {
 	width: 14em;
 	border-radius: .2em;
 	border: 1px solid #ddd;
@@ -199,10 +247,10 @@ body {
 
 #data_vis:hover {
 	filter: brightness(85%);
-}
+} */
 
 /* API Project */
-#API {
+/* #API {
 	width: 16em;
 	border-radius: .2em;
 	border: 1px solid #ddd;
@@ -212,10 +260,10 @@ body {
 
 #API:hover {
 	filter: brightness(85%);
-}
+} */
 
 /* Udemy Practice Exams */
-#udemy {
+/* #udemy {
 	width: 14.6em;
 	border-radius: .2em;
 	border: 1px solid #ddd;
@@ -225,10 +273,10 @@ body {
 
 #udemy:hover {
 	filter: brightness(85%);
-}
+} */
 
 /* Hangman */
-#hangman {
+/* #hangman {
 	width: 14.6em;
 	border-radius: .2em;
 	border: 1px solid #ddd;
@@ -238,10 +286,10 @@ body {
 
 #hangman:hover {
 	filter: brightness(85%);
-}
+} */
 
 /* Static Layout */
-.thumbnailsWrapper {
+/* .thumbnailsWrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -270,10 +318,10 @@ body {
 
 #imgStatic:hover {
 	filter: brightness(80%);
-}
+} */
 
 /* CSS Creature */
-#creature {
+/* #creature {
 	border-radius: .2em;
 	border: 1px solid #ddd;
 	padding: .1em;
@@ -283,30 +331,37 @@ body {
 
 #creature:hover {
 	filter: brightness(85%);
-}
+} */
+
+/* END OLD WEB DEV PROJECTS */
+
+
+
+
+
 
 /* Contact */
 #contactSection {
-	padding-top: 3em;
+	padding-top: 1em;
 	background-image: linear-gradient(lightgray, gray);
 }
 
 #contact {
-	padding-top: 10em;
+	padding-top: 6em;
 	max-width: 35em;
 }
 
 .btn {
 	border: none;
 	margin: .5em 1em 1em 1em;
-	background-color: #eb9b34;
+	background-color: #f1941b;
 	color: rgb(255, 255, 255);
 	transition: filter .3s ease;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 .btn:hover {
-	filter: brightness(85%);
+	filter: brightness(125%);
 	color: white;
 }
 

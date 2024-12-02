@@ -28,21 +28,22 @@
       <div class="navbar-nav">
         <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
         <a class="nav-link" href="#aboutMe">About Me</a>
-        <a class="nav-link" href="#projects">Projects</a>
         <a class="nav-link" href="#contact">Contact</a>
       </div>
     </div>  
   </nav>
 
-  <!-- Background and Title Card -->
+  <!-- This Section includes Background, Title Card, About Me -->
+  <!-- Background -->
   <section class="landing">
-    <div class="card border-info mb-3" style="max-width: 20rem;">
+    
+    <div class="card border-info mb-3" style="max-width: 25rem;">
       <div class="card-body text-info">
         <h1 class="card-title">Ryan Watts</h1>
-        <h5 class="card-text">Network Analyst</h5>
+        <h5 class="card-text">Consultant - Enterprise Networking</h5>
       </div>
     </div>
-  </section>
+  
 
   <!-- About Me -->
   <div class="container-fluid">
@@ -52,11 +53,12 @@
         <img src="assets/Ryan Watts professional.jpg" id="myPhoto">
       </div>
       <div class="col-lg-3">
-        <h1 style="text-align:center;">About Ryan Watts</h1>
-        <p class="bioText">I graduated from Michigan State University with a Bachelor of Arts in English. I worked in China as an English teacher for 6 years. In July 2021 I obtained a Master of Science in Information and Communication Sciences from Ball State University. In January 2022 I began a career as a Network Analyst. My interests include networking, cloud computing, cybersecurity, and support.</p>
+        <h1 style="text-align:center;color:rgb(0, 208, 255)">About Me</h1>
+        <p class="bioText"> In July 2021 I obtained a Master's degree in Information and Communication Sciences from Ball State University. In January 2022 I began a career as a Network Analyst and progressed to consulting engineer. I have 3 years of experience as a network engineer. I have experience with multiple vendors including Cisco, Aruba, Meraki, Juniper, and F5 BIG-IP. My interests include networking, cloud computing, and cybersecurity.</p>
       </div>
     </div>
   
+  <!-- LinkedIn, Resume, GitHub links-->
     <div class="row justify-content-center">
       <div class="col-12" id="links">
         <div class="linkedIn">
@@ -64,7 +66,7 @@
           <img src="assets/linkedIn.svg" id="linkedInIcon"></a>
         </div>
         <div class="resume">
-          <a href="assets/Resume.docx"><button class="btn"><i class="fa fa-download"></i> Download Resume</button></a>
+          <a href="assets/Resume.pdf"><button class="btn"><i class="fa fa-download"></i> Resumé</button></a>
         </div>
         <div class="gitHubProfile">
           <a target="_blank" href="https://github.com/rwatts2222">
@@ -72,8 +74,11 @@
         </div>
       </div>
     </div>
-  
-    <div class="row justify-content-center">
+
+  </section>
+
+  <!-- Certifications -->
+    
       <div class="col-12 text-center">
         <h2>Certifications</h2>
         <div class="logos">
@@ -85,7 +90,25 @@
             <img src="assets/CCNP_Enterprise_large.jpg" id="CCNPBadge">
             <p>Cisco Certified<br>Network Professional</p>
           </div>
-          <div class="PaloAltoLogo">
+          <div class="DevNetLogo">
+            <img src="assets/Devnet certifications_associate_RGB_300ppi.png" id="DevNetBadge">
+            <p>Cisco Certified<br>DevNet Associate</p>
+          </div>
+          <div class="JNCIS-ENTLogo">
+            <img src="assets/juniper-networks-certified-specialist-enterprise-routing-switching-jncis-ent.png" id="JNCIS-ENTBadge">
+            <p>Juniper Enterprise<br>Routing and Switching</p>
+          </div>
+          <div class="ArubaCampusAccessLogo">
+            <img src="assets/hpe-aruba-networking-certified-professional-campus-.png" id="ArubaCampusAccessBadge">
+            <p>Aruba Certified<br>Professional<br>Campus Access</p>
+          </div>
+          <div class="F5CertifiedAdministrator">
+            <img src="assets/F5 CA badge.png" id="F5AdministratorBadge">
+            <p>F5 Certified<br>Administrator<br>BIG-IP</p>
+          </div>
+
+          <!-- BEGIN EXPIRED CERTIFICATIONS -->
+      <!--<div class="PaloAltoLogo">
             <img src="assets/pan_pccet_digital-badge_transcript-sharing-logo-250x250.png" id="PaloAltoBadge">
             <p>Certified Cybersecurity<br>Entry-level Technician</p>
           </div>
@@ -104,35 +127,46 @@
           <div class="SecurityPlusLogo">
             <img src="assets/SecurityPlus Logo Certified CE.png" id="SecurityPlusBadge">
             <p>CompTIA Security+</p>
-          </div>
-        </div>
+          </div> -->
+          <!-- END EXPIRED CERTIFICATIONS -->
+
+        
       </div>
     </div>
 
-    <div class="row justify-content-center">
+    
       <div class="col-12 text-center">
-        <h2>Additional Skills</h2>
-        <div class="logos">
-          <div class="htmlLogo">
-            <img src="assets/html logo.jpg" id="htmlBadge">
-            <p>HTML</p>
+        <h2>Skills</h2>
+        <div class="row justify-content-center">
+          <div class="skills">
+            <ul>
+              <li>&#8226 Routing</li>
+              <li>&#8226 Switching</li>
+              <li>&#8226 Root Cause Analysis</li>
+              <li>&#8226 Design</li>
+              <li>&#8226 Documentation</li>
+              <li>&#8226 Diagramming</li>
+            </ul>
+            <div>
+            <ul>
+              <li>&#8226 Application Load Balancing</li>
+              <li>&#8226 Consulting</li>
+              <li>&#8226 Wireless</li>
+              <li>&#8226 Installation/Decomm</li>
+            </ul>
           </div>
-          <div class="cssLogo">
-            <img src="assets/CSS logo.jpg" id="cssBadge">
-            <p>CSS</p>
           </div>
-          <div class="javascriptLogo">
-            <img src="assets/javascript logo.jpg" id="javascriptBadge">
-            <p>JavaScript</p>
-          </div>
-          <div class="pythonLogo">
-            <img src="assets/Python-logo.png" id="pythonBadge">
-            <p>Python</p>
-          </div>
+        </div>
+      </div>
+
+    
         </div>
       </div>
     </div>
 
+
+    <!-- OLD ACCOLADES, BALLSTATE LINK IS BROKEN -->
+  <!-- 
     <div class="row justify-content-center">
       <div class="col-12 text-center">
         <h2>Accolades</h2>
@@ -145,57 +179,48 @@
         </div>
       </div>
     </div>
+                                -->                         
+  
 
-  </div>
-
-  <!-- Projects -->
-  <div class="container-fluid" id="projects">
+<!-- OLD WEB DEV PROJECTS -->
+  <!-- <div class="container-fluid" id="projects">
     <h1>Projects</h1>
 
-    <div class="row" id="projectsRow">
+    <div class="row" id="projectsRow"> -->
 
       <!-- Python Data Vis -->
-      <div class="col">
+      <!-- <div class="col">
         <a target="_blank" href="https://github.com/rwatts2222/netflix_data_vis/blob/main/netflix_data_vis.ipynb">
           <img src="assets/python_data_vis.jpg" id="data_vis" alt="netflix">
         </a>
         <h4>Python Data Visualization</h4>
         <p>Parsing data with Python to create graphs.</p>
-      </div>
+      </div> -->
 
       <!-- API Project -->
-      <div class="col">
+      <!-- <div class="col">
         <a target="_blank" href="https://rw--api-project.web.app/">
           <img src="assets/API project.jpg" id="API">
         </a>
         <h4>API Project</h4>
         <p>A fetch-based Application Programming Interface (API) using JavaScript. It displays information about Studio Ghibli movies.</p>
-      </div>
-
-      <!-- Udemy Practice Exams-->
-      <!-- <div class="col">
-        <a target="_blank" href="https://www.udemy.com/course/palo-alto-cert-cybersecurity-entry-level-technician-pccet/">
-          <img src="assets/UdemyCourse.jpg" id="udemy">
-        </a>
-        <h4>Udemy Practice Exams</h4>
-        <p>A set of practice exams I wrote for PCCET.</p>
       </div> -->
     
-    </div>
+    <!-- </div>
 
-    <div class="row" id="projectsRow2">
+    <div class="row" id="projectsRow2"> -->
 
       <!-- Hangman -->
-      <div class="col">
+      <!-- <div class="col">
         <a target="_blank" href="https://rwatts2222.github.io/hangman/">
           <img src="assets/Hangman.jpg" id="hangman">
         </a>
         <h4>Hangman</h4>
         <p>A two-player hangman game using JavaScript.</p>
-      </div>
+      </div> -->
 
       <!-- Static Layout -->
-      <div class="col">
+      <!-- <div class="col">
         <div class="thumbnailsWrapper">
           <div class="kast">
             <a target="_blank" href="https://www.kastapp.co/">
@@ -214,10 +239,10 @@
               <h4>Static Layout</h4>
               <p>A static re-creation of an actual website using HTML and CSS.</p>
           </div>
-      </div>
+      </div> -->
 
       <!-- CSS Creature -->
-      <div class="col">
+      <!-- <div class="col">
         <a target="_blank" href="https://codepen.io/rwatts2222/pen/JjboOrP">
           <img src="assets/CSS creature.jpg" id="creature" alt="CSS Creature">
         </a>
@@ -225,9 +250,26 @@
         <p>A simple graphic created via HTML and CSS.</p>
       </div>
 
-    </div>
+    </div> -->
+    
 
-  </div>
+
+      <!-- Udemy Practice Exams-->
+      <!-- <div class="col">
+        <a target="_blank" href="https://www.udemy.com/course/palo-alto-cert-cybersecurity-entry-level-technician-pccet/">
+          <img src="assets/UdemyCourse.jpg" id="udemy">
+        </a>
+        <h4>Udemy Practice Exams</h4>
+        <p>A set of practice exams I wrote for PCCET.</p>
+      </div> -->
+
+
+  <!-- </div> -->
+
+
+
+
+  
 
   <!-- Contact -->
   <div class="container-fluid" id="contactSection">
@@ -235,7 +277,7 @@
     <br>
         
     <div class="container-fluid" id="contact">
-      <h1 class="text-center">Contact</h1>
+      <h2 class="text-center">Contact</h2>
         <form action="https://formspree.io/f/mknppkrb" method="POST">
           <div class="control-group">
             <div class="form-group">
@@ -274,7 +316,7 @@
   <!-- Footer -->
   <div class="container-fluid" id="footer">
     <a href="#"><button class="topBtn">Return to top</button></a>
-    <p class="copyright">&copy; 2022 Ryan Watts</p>
+    <p class="copyright">&copy; 2024 Ryan Watts</p>
   </div>
 
     <!-- Scripts -->
