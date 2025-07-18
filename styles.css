@@ -116,6 +116,11 @@ body {
 	margin: -.8em 3em .35em 3em;
 }
 
+#F5-BIG-IP-DNS-Badge {
+	width: 6em;
+	margin: -.8em 3em .35em 3em;
+}
+
 /* EXPIRED CERTIFICATIONS 
 
 #PaloAltoBadge {
@@ -165,6 +170,9 @@ body {
   li {
 	display: inline-block;
 	margin-right: 2em;
+	color: navy;
+	font-size: larger;
+	font-weight:600;
   }
   
 /* WEB DEV ICONS
