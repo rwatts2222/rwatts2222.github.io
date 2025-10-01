@@ -86,10 +86,14 @@ body {
 }
 
 /* Certifications */
+
+/* Omitted CCNA because CCNP encompasses it */
+/*
 #CCNABadge {
 	width: 6em;
 	margin: -.435em 3em 0 3em;
 }
+	*/
 
 #CCNPBadge {
 	width: 6em;
@@ -117,6 +121,16 @@ body {
 }
 
 #F5-BIG-IP-DNS-Badge {
+	width: 6em;
+	margin: -.8em 3em .35em 3em;
+}
+
+#F5-BIG-IP-ASM-Badge {
+	width: 6em;
+	margin: -.8em 3em .35em 3em;
+}
+
+#AzureAIFundamentals {
 	width: 6em;
 	margin: -.8em 3em .35em 3em;
 }
